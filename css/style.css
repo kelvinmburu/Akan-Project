@@ -73,5 +73,12 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.form-gender {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     padding-bottom: 20px;
 }
