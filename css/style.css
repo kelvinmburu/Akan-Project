@@ -20,7 +20,7 @@ section {
     max-width: 1180px;
     width: 100%;
     background-color: antiquewhite;
-    height: 90vh;
+    height: 95vh;
     position: absolute;
     right: 0;
     top: 0;
@@ -170,6 +170,7 @@ hr {
     transition: all 0.4s ease;
     margin-left: 50px;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .clear-btn:hover {
@@ -178,4 +179,14 @@ hr {
     cursor: pointer;
 }
 
+
+#name-display {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 /* footer styling */
+
+footer {
+    text-align: center;
+}
