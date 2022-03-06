@@ -80,5 +80,63 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.p-3 {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+}
+
+/* Input fields styling */
+
+#numYear {
+    border-radius: 4px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #aaa;
+    transition: all 0.3s ease;
+}
+
+#numYear:focus {
+    border-color: crimson;
+    box-shadow: 0 0 4px 0 rgba(220, 20, 60, 0.596);
+}
+
+#numMonth {
+    border-radius: 4px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #aaa;
+    transition: all 0.3s ease;
+}
+
+
+#numDay {
+    border-radius: 4px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #aaa;
+    transition: all 0.3s ease;
+}
+
+
+/* Radio buttons styling */
+
+.form-gender{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
