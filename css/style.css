@@ -39,6 +39,7 @@ h1 {
     padding-top: 30px;
     font-weight: bold;
     font-size: 50px;
+    color: crimson;
 }
 
 .p-1 {
@@ -49,4 +50,22 @@ h1 {
 .p-2 {
     padding-top: 45px;
     font-size: 20px;
+    padding-bottom: 40px;
 }
+
+a {
+    text-decoration: none;
+    transition: all ease 0.5s;
+    color: aqua;
+}
+
+a:hover {
+    color: crimson
+}
+
+hr {
+    margin: auto 50px;
+}
+
+/* Form styling */
+
