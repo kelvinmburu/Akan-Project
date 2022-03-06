@@ -17,6 +17,35 @@
         <h1>Akan App Generator</h1>
         <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and depending on their gender, it outputs their<span><a href="https://en.wikipedia.org/wiki/Akan_names#:~:text=Since%20Ashanti%20names%20are%20always,the%20mother%20of%20the%20husband." target="_blank">Akan Name</a></span>,fill in the form and click<span>Generate.</span>.</p>
         <p>To get started, add know your<span><a href="https://en.wikipedia.org/wiki/Akan_names#:~:text=Since%20Ashanti%20names%20are%20always,the%20mother%20of%20the%20husband." target="_blank">Akan Name</a></span>,fill in the form and click<span>Generate.</span> </p>
+        
+        <!-- This section adds the form details -->
+
+        <form class="akan-from" onsubmit="return getAkanName()">
+            <label for="year-of-birth">
+                Year:
+                <input id="numYear" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+            </label>
+            <label for="birth-month">
+                Month:
+                <input id="numMonth" type="number" name="birthMonth" placeholder="MM" value="" required>
+            </label>
+            <label for="date-of-birth">
+                Day:
+                <input id="numDay" type="number" name="dateOfBirth" placeholder="DD" value="" required>
+            </label>
+            <br>
+            <hr>
+            <label for="gender">
+                <p>Choose Gender:</p>
+                Male:
+                <input id="maleGender" type="radio" name="gender" value="Male" required>
+                Female:
+                <input id="femaleGender" type="radio" name="gender" value="female" required>
+            </label>
+            <br>
+            <hr>
+            
+        </form>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
