@@ -67,5 +67,11 @@ hr {
     margin: auto 50px;
 }
 
-/* Form styling */
+/* Form Content styling */
 
+.year-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
