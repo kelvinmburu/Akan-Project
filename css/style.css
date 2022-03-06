@@ -27,6 +27,8 @@ section {
     left: 0;
     bottom: 0;
     margin: auto;
+    border-radius: 5px;
+    outline: none;
 }
 
 .main-text {
@@ -34,5 +36,17 @@ section {
 }
 
 h1 {
-    
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.p-1 {
+    padding-top: 45px;
+    font-size: 20px;
+}
+
+.p-2 {
+    padding-top: 45px;
+    font-size: 20px;
 }
