@@ -7,10 +7,32 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.container {
-    width: 100%;
+section {
     height: 100vh;
+    position: relative;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/img/bg-img-2.jpg");
     background-position: center;
     background-size: cover;
+}
+
+.container {
+    border: 2px solid white;
+    max-width: 1180px;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 90vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.main-text {
+    text-align: center;
+}
+
+h1 {
+    
 }
