@@ -2,9 +2,10 @@
 
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. It uses a mixture of HTML5, CSS and JavaScript.
 
-#### Author Name
+#### Author Name & Author Info
 
 Kelvin Mburu Wanjiku
+[Follow me on LinkedIn](https://www.linkedin.com/in/kelvin-m-560a25135/)
 
 #### Project Setup
 
