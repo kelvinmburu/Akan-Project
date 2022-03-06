@@ -1,2 +1,19 @@
-# Akan-Project
-This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+## Akan-Project & Project Description
+
+This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. It uses a mixture of HTML5, CSS and JavaScript.
+
+#### Author Name
+
+Kelvin Mburu Wanjiku
+
+#### Project Setup
+
+This app doesn't require any setup information. Please use the live link version to preview it.
+
+#### Live Link
+
+[Click here to view the live demo](link)
+
+#### License Agreement
+
+[View the License Agreement](LICENSE)
