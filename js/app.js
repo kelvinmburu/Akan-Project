@@ -62,10 +62,17 @@ akanFemale[6] = "Ama";
 
 var akanMale = new Array(6);
 
-akanFemale[0] = "Akosua";
-akanFemale[1] = "Adwoa";
-akanFemale[2] = "Abenaa";
-akanFemale[3] = "Akua";
-akanFemale[4] = "Yaa";
-akanFemale[5] = "Afua";
-akanFemale[6] = "Ama";
+akanFemale[0] = "Kwasi";
+akanFemale[1] = "Kwadwo";
+akanFemale[2] = "Kwabena";
+akanFemale[3] = "Kwaku";
+akanFemale[4] = "Yaw";
+akanFemale[5] = "Kofi";
+akanFemale[6] = "Kwame";
+
+// If function for male and female names generation
+
+if (maleGender == "male"){
+    generateName = akanMale[thatDay]
+}
+else {generateName = akanFemale[thatDay]}
