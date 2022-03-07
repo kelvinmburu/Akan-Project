@@ -5,8 +5,8 @@ function getAkanName() {
     let numDay = document.form.numDay.options[numDay].value;
     let numYear = document.form.numYear.value;
     //Gender variables declaration
-   let gender = document.form.gender.selectedIndex;
-   let gender = document.form.gender.options[gender].value;
+    let gender = document.form.gender.selectedIndex;
+    let gender = document.form.gender.options[gender].value;
 
     // Date array declaration and container
 
