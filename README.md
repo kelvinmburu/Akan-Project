@@ -5,11 +5,18 @@ This is a web application that takes a user's birthday and calculates the day of
 #### Author Name & Author Contact Info
 
 Kelvin Mburu Wanjiku
-[Follow me on LinkedIn](https://www.linkedin.com/in/kelvin-m-560a25135/)
+[Follow me on LinkedIn](https://www.linkedin.com/in/kelvin-m-560a25135/).
+
 For project contribution email me on:
 
-- [Gmail](mburuhkelvin@gmail.com)
-- [Student-Email](kelvin.anjiku@student.moringaschool.com)
+- [mburuhkelvin@gmail.com]
+- [kelvin.anjiku@student.moringaschool.com]
+
+##### BDD
+
+- The app takes the date of birth details as input.
+- The app takes gender details as input.
+- The app displays the Akan name for either male or female gender.
 
 #### Project Setup
 
