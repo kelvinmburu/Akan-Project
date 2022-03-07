@@ -73,6 +73,11 @@ akanFemale[6] = "Kwame";
 // If function for male and female names generation
 
 if (maleGender == "male"){
-    generateName = akanMale[thatDay]
+    generateName = akanMale[akanDay]
 }
-else {generateName = akanFemale[thatDay]}
+else {generateName = akanFemale[akanDay]};
+
+
+// Function for female name generation
+
+if (num)
