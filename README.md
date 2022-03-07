@@ -32,7 +32,7 @@ This project uses a combination of the following languages:
 
 #### Live Link
 
-[Click here to view the live demo](link)
+[Click here to view the live demo](https://kelvinmburu.github.io/Akan-Project/)
 
 #### License Agreement
 
