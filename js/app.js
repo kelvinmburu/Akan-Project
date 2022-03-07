@@ -10,8 +10,6 @@ function getAkanName() {
     let feGender = docment.form.femaleGender.selectedIndex;
     let feGender = document.form.options[femaleGender].value;
 
-}
-
 // Date array declaration and container
 
 var dOB = month + "" + birthDate + ", " + birthYear;
@@ -80,4 +78,11 @@ else {generateName = akanFemale[akanDay]};
 
 // Function for female name generation
 
-if (num)
+if (birthDate != date) alert("Invalid date!");
+else {
+    dateBorn = generateName;
+    dateWeek = weekDays[akanDay];
+    dOB = dateBorn + ", " + "born on a" + " " + dateWeek;
+    alert("Great! Your Akan name is " + dOB);
+}
+}
