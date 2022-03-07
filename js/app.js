@@ -5,10 +5,8 @@ function getAkanName() {
     let birthDate = document.form.options[numDay].value;
     let birthYear = document.form.numYear.value;
     //Gender variables declaration
-    let mlGender = document.form.maleGender.selectedIndex;
-    let mlGender = document.form.options[mlGender].value;
-    let feGender = docment.form.femaleGender.selectedIndex;
-    let feGender = document.form.options[femaleGender].value;
+   let gender = document.form.gender.selectedIndex;
+   let gender = document.form.gender.options[gender].value;
 
     // Date array declaration and container
 
@@ -70,7 +68,7 @@ function getAkanName() {
 
     // If function for male and female names generation
 
-    if (mlGender == "male") {
+    if (gender == "male") {
         generateName = akanMale[akanDay]
     } else {
         generateName = akanFemale[akanDay]
