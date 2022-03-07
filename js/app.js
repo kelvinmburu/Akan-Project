@@ -1,20 +1,20 @@
 function getAkanName() {
-    let birthMonth = document.form.numMonth.selectedIndex;
-    let birthMonth = document.form.month.options[birthMonth].value;
-    let birthDate = document.form.numDay.selectedIndex;
-    let birthDate = document.form.options[numDay].value;
-    let birthYear = document.form.numYear.value;
+    let numMonth = document.form.numMonth.selectedIndex;
+    let numMonth = document.form.numMonth.options[numMonth].value;
+    let numDay = document.form.numDay.selectedIndex;
+    let numDay = document.form.numDay.options[numDay].value;
+    let numYear = document.form.numYear.value;
     //Gender variables declaration
    let gender = document.form.gender.selectedIndex;
    let gender = document.form.gender.options[gender].value;
 
     // Date array declaration and container
 
-    var dOB = month + "" + birthDate + ", " + birthYear;
+    var dOB = numMonth + " " + numDay + ", " + numYear;
     var whenBorn = new Date(dOB);
-    var akanDay = whenBorn.getDate();
+    var akanDay = whenBorn.getDay();
     var date = whenBorn.getDate();
-    var yearOB = whenBorn.getFullYear();
+    var numYear = whenBorn.getYear();
 
     // Syntax for invalid date, birth month, and yearOB
 
@@ -22,13 +22,13 @@ function getAkanName() {
         alert("Invalid birth date")
     }
 
-    if (birthMonth <= 0 || birthMonth >= 12) {
+    if (numMonth <= 0 || numMonth >= 12) {
         alert("Invalid birth month")
     }
 
 
-    if (yearOB < 100) yearOB = "19" + whenBorn.getFullYear();
-    else year = whenBorn.getFullYear();
+    if (numYear < 100) numYear = " " + whenBorn.getYear();
+    else numYear = whenBorn.getYear();
 
     //Syntax displays the days of the week contained in a variable
 
@@ -58,13 +58,13 @@ function getAkanName() {
 
     var akanMale = new Array(6);
 
-    akanFemale[0] = "Kwasi";
-    akanFemale[1] = "Kwadwo";
-    akanFemale[2] = "Kwabena";
-    akanFemale[3] = "Kwaku";
-    akanFemale[4] = "Yaw";
-    akanFemale[5] = "Kofi";
-    akanFemale[6] = "Kwame";
+    akanMale[0] = "Kwasi";
+    akanMale[1] = "Kwadwo";
+    akanMale[2] = "Kwabena";
+    akanMale[3] = "Kwaku";
+    akanMale[4] = "Yaw";
+    akanMale[5] = "Kofi";
+    akanMale[6] = "Kwame";
 
     // If function for male and female names generation
 
@@ -77,7 +77,7 @@ function getAkanName() {
 
     // Function for female name generation
 
-    if (birthDate != date) alert("Invalid date!");
+    if (numDay != date) alert("Invalid date!");
     else {
         dateBorn = generateName;
         dateWeek = weekDays[akanDay];
