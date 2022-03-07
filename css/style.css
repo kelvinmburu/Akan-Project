@@ -150,7 +150,8 @@ hr {
     padding: 15px;
     border-radius: 4px;
     transition: all 0.4s ease;
-    margin-left: 50px;
+    margin-left: 525px;
+    margin-top: 20px;
 }
 
 #getName:hover {
@@ -189,4 +190,5 @@ hr {
 
 footer {
     text-align: center;
+    padding-top: 90px;
 }
