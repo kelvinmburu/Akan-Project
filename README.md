@@ -12,7 +12,7 @@ For project contribution email me on:
 - [mburuhkelvin@gmail.com]
 - [kelvin.anjiku@student.moringaschool.com]
 
-##### BDD
+#### BDD
 
 - The app takes the date of birth details as input.
 - The app takes gender details as input.
