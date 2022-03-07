@@ -6,7 +6,7 @@ function getAkanName() {
     let birthYear = document.form.numYear.value;
     //Gender variables declaration
     let mlGender = document.form.maleGender.selectedIndex;
-    let mlGender = document.form.options[maleGender].value;
+    let mlGender = document.form.options[mlGender].value;
     let feGender = docment.form.femaleGender.selectedIndex;
     let feGender = document.form.options[femaleGender].value;
 
@@ -15,12 +15,12 @@ function getAkanName() {
 var dOB = month + "" + birthDate + ", " + birthYear;
 var whenBorn = new Date(dOB);
 var akanDay = whenBorn.getDate();
-var date = whenborn.getDate();
-var yearOB = whenborn.getFullYear();
+var date = whenBorn.getDate();
+var yearOB = whenBorn.getFullYear();
 
 // Syntax for invalid date, birth month, and yearOB
 
-if (birthDate <= 0 || birthDate >= 31) {
+if (date <= 0 || date >= 31) {
     alert("Invalid birth date")
 }
 
@@ -29,8 +29,8 @@ if (birthMonth <= 0 || birthMonth >= 12) {
 }
 
 
-if (birthYear < 100) birthYear = "19" + whenborn.getFullYear();
-else year = whenborn.getFullYear();
+if (yearOB < 100) yearOB = "19" + whenBorn.getFullYear();
+else year = whenBorn.getFullYear();
 
 //Syntax displays the days of the week contained in a variable
 
@@ -70,7 +70,7 @@ akanFemale[6] = "Kwame";
 
 // If function for male and female names generation
 
-if (maleGender == "male"){
+if (mlGender == "male"){
     generateName = akanMale[akanDay]
 }
 else {generateName = akanFemale[akanDay]};
